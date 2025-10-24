@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.postcard {
+	max-width: 600px;
+	margin: 32px auto;
+	border: 1px solid black;
+	padding: 8px;
+}
+.postcard-header {
+	display: flex;
+	max-height: 100px;
+	margin-bottom: 8px;
+}
+.postcard-title {
+	font-size: xx-large;
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.postcard-image-container {
+	width: 80px;
+}
+.postcard-image {
+	width: 100%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-right {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 8px;
+}
+.body-right input {
+	border: none;
+	border-bottom: 2px solid #ccc;
+	outline: none;
+}
+.body-right input {
+	border-bottom-color: #444;
+}
+.body-left {
+	line-height: 1.6;
+}
+.send-button {
+	margin: 16px auto;
+	width: fit-content;
+	padding: 10px 20px;
+	background-color: gray;
+	color: #fff;
+}
